@@ -1,0 +1,158 @@
+.container {    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Стилі для заголовків */
+.display {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #666;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.task-title {
+    flex-grow: 20;
+    margin-right: 10px;
+    font-size: 18px;
+    color: #333;
+    word-break: break-word; /* Автоматичний перенос довгого тексту без пробілів */
+}
+.task-title--done {
+    flex-grow: 20;
+    margin-right: 10px;
+    font-size: 18px;
+    color: #9f9f9f;
+    text-decoration: line-through;
+    word-break: break-word; /* Автоматичний перенос довгого тексту без пробілів */
+}
+
+/* Стилі для списку задач */
+.card {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.empty-list__icon{
+    display: flex;
+    justify-content: center;
+}
+.empty-list__title {
+    font-size: 18px;
+    color: #888;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.list-group-item {
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+    list-style: none;
+    /* border-bottom: solid rgb(63, 63, 63) 2px; */
+}
+
+.d-flex {
+    display: flex;
+}
+
+.task-item__buttons {
+    display: flex;
+    column-gap: 5px;
+}
+
+.btn-action img {
+pointer-events: none;
+text-align: center;
+padding-top: 5px;
+}
+.btn-action {
+    cursor: pointer;
+    border-radius: 50%
+}
+.btn-action:hover {
+    cursor: pointer;
+    background-color: rgb(176, 175, 175);
+    opacity: 1;
+}
+
+/* Стилі для форми додавання нової задачі */
+.card-header {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #36e94b;
+    padding: 10px 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    padding-right: 25px;
+}
+
+.form-control {
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    width: 100%;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.btn-primary:active {
+    background-color: #0062cc;
+    border-color: #005cbf;
+}
+
+.btn-primary:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.btn-lg {
+    font-size: 18px;
+    padding: 12px 24px;
+}
+.none {
+    display: none;
+}
+li{
+    max-width: 550px;
+}
+
